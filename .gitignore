@@ -1,0 +1,15 @@
+# dependencies (the game itself has none; tests may install playwright-core)
+node_modules/
+package-lock.json
+
+# screenshots written by the browser tests
+mshot-*.png
+shot-*.png
+v3*-*.png
+
+# editor / OS cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
