@@ -12,13 +12,17 @@ No build step, no dependencies, no assets to load — each version is a single
 self-contained HTML file. All graphics are drawn procedurally on a canvas and
 all sound is synthesized at runtime with WebAudio.
 
-| Version | Where | What it is |
-|---|---|---|
-| **v3** (current) | `index.html` | Roll-turn reversal, arresting cables with a visible catch, crash barrier, deck-crew servicing + tow, MG vs buildings, damage pips, richer art |
-| v2 | `v2/index.html` | Realism pass: roll/loop flight model, gear, wire-zone landing, island ecosystem (repair crews!), carrier raids, difficulty + ranks |
-| v1 | `v1/index.html` | The original simple arcade take |
+## Play
 
-## Run
+**[matoushavlena.github.io/flattop](https://matoushavlena.github.io/flattop/)** — no install, runs in the browser.
+
+| Version | Play | Source | What it is |
+|---|---|---|---|
+| **v3** (current) | [play](https://matoushavlena.github.io/flattop/) | `index.html` | Roll-turn reversal, arresting cables with a visible catch, crash barrier, deck-crew servicing + tow, MG vs buildings, damage pips, richer art |
+| v2 | [play](https://matoushavlena.github.io/flattop/v2/) | `v2/index.html` | Realism pass: roll/loop flight model, gear, wire-zone landing, island ecosystem (repair crews!), carrier raids, difficulty + ranks |
+| v1 | [play](https://matoushavlena.github.io/flattop/v1/) | `v1/index.html` | The original simple arcade take |
+
+## Run locally
 
 ```sh
 python3 -m http.server 8123     # from this directory
